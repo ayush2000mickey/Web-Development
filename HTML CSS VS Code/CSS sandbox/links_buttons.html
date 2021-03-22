@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>links and buttons</title>
+    <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .btn1 {
+        color: chocolate;
+        text-decoration: none;
+        margin-left: 17px;
+      }
+      .btn1:hover {
+        color: greenyellow;
+        font-size: 50px;
+        text-decoration: underline;
+        margin-left: 0px;
+        cursor: move;;
+      }
+      /* a:visited{
+          color: red;
+      } */
+      .btn1:active {
+        color: purple;
+      }
+      /* button styling */
+      .btn {
+        background: #4c6ca0;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        color: white;
+        background: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <a class="btn1" href="#">click here</a>
+    <br /><br />
+    <a class="btn2" href="http://www.google.com" aria-label="google">
+      <button class="btn">My button</button>
+    </a>
+  </body>
+</html>

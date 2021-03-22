@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#boxes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    justify-items: center;
+    align-items: center;  
+}
+
+#boxes .box{
+    background: black;
+    height: 70px;
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+}

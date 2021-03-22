@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float & Align</title>
+    <style>
+      *{
+        box-sizing:border-box ;
+      }
+      .container {
+        max-width: 960px;
+        margin: 30px auto;
+      }
+      .clr{
+        clear: both;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+      }
+      .box {
+        background: #f4f4f4;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
+      .box p {
+        /* text align */
+        text-align: centers;
+        text-align: right;
+      }
+
+      #box-2 {
+        float: left;
+        width: 69%;
+      }
+
+      #box-3 {
+        float: right;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box-1" class="box">
+        <h3>Heading 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo
+          aut laudantium harum voluptas quod reiciendis animi tempora unde
+          aspernatur!
+        </p>
+      </div>
+      <div id="box-2" class="box">
+        <h3>Heading 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo
+          aut laudantium harum voluptas quod reiciendis animi tempora unde
+          aspernatur!
+        </p>
+      </div>
+      <div id="box-3" class="box">
+        <h3>Heading 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo
+          aut laudantium harum voluptas quod reiciendis animi tempora unde
+          aspernatur!
+        </p>
+      </div>
+      <div class="clr"></div>
+      <div id="box-4" class="box">
+        <h3>Heading 4</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo
+          aut laudantium harum voluptas quod reiciendis animi tempora unde
+          aspernatur!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

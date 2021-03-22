@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline & block styling</title>
+    <style>
+      li {
+        display: inline;
+      }
+      li a {
+        padding-right: 20px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        font-size: 20px;
+        color: red;
+      }
+      img {
+        display: block;
+        margin: auto;
+        width: 200px;
+      }
+      img:hover{
+        width: 400px;
+      }
+      .box {
+        background-color: lightgrey;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 250px;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+        border: darkgray;
+        border-radius: 20px;
+        font-size: 20px;
+      }
+      .box:hover {
+        background: black;
+        color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Tech</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">Fashion</a></li>
+    </ul>
+    <br /><br />
+    <img src="./images css/pokeball.jpg" alt="pokeball" />
+    <br />
+    <img src="./images css/pokeball.jpg" alt="pokeball" />
+    <div class="box">
+      <h3>Heading 1</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit ut
+        tempore cupiditate? Dolor, omnis nihil eligendi ipsa ea quia.
+      </p>
+    </div>
+    <div class="box">
+      <h3>Heading 2</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit ut
+        tempore cupiditate? Dolor, omnis nihil eligendi ipsa ea quia.
+      </p>
+    </div>
+    <div class="box">
+      <h3>Heading 3</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit ut
+        tempore cupiditate? Dolor, omnis nihil eligendi ipsa ea quia.
+      </p>
+    </div>
+    <br /><br /><br /><br />
+  </body>
+</html>
