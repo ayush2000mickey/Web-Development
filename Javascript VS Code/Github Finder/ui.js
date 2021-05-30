@@ -11,7 +11,7 @@ class UI {
                     <div class="col-md-3">
                         <img class="img-fluid mb-2" src="${user.avatar_url}">
                         <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-large btn-block mb-3" 
-                        style="width: 100%">Veiw Profile</a>
+                        style="width: 100%">View Profile</a>
                     </div>
                     <div class="col-md-9">
                         <span class="badge bg-primary mt-1" style="font-size:1rem">Public Repos: ${user.public_repos}</span>
